@@ -1,0 +1,14 @@
+global_config:
+  customer_prefix: "iac"
+  product_id: "SWP-123"
+  costcenter: "233567"
+
+tf_backend_name: "iac-tfstate"
+
+ 
+storage_account:
+  backup_vault:
+    datatype: "VaultStore"
+    redundancy: "LocallyRedundant" 
+    backup_role_blob_storage: "Storage Account Backup Contributor"
+    soft_delete: "Off"
