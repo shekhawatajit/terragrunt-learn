@@ -1,0 +1,5 @@
+global_config: {}
+
+cloud_region: "westeurope"
+bmw_region: "emea"
+
